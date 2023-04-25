@@ -11,11 +11,32 @@
         a {
             text-decoration: none;
         }
+
+        #bg-anim {
+            border-radius: 325px 400px 100px 95px;
+            background-color: #e9ecef;
+            position: absolute;
+        }
+
+        .parallax {
+            /* The image used */
+            /* background-image: url("res/14445461_19Z_2105.w015.n001.411A.p15.411.jpg"); */
+            background-image: url("res/7588780_1499.jpg");
+
+            /* Set a specific height */
+            /* min-height: 200px; */
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -28,16 +49,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                                 </p>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">About</a>
+                                <a class="nav-link active" href="#about-us">About</a>
                                 </p>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Services</a>
+                                <a class="nav-link active" href="#services">Services</a>
                                 </p>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Contact</a>
+                                <a class="nav-link active" href="#contact-us">Contact</a>
                                 </p>
                         </ul>
                     </div>
@@ -46,64 +67,55 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center mt-5 pt-5">NBPS Tech Solutions</h1>
-                    <p class="lead text-center mb-5 pb-5">Let it happen... Through IT</p>
+                <div class="col-lg-8 col-md-6 col-12">
+                    <h1 class="mt-4 px-3 pt-5">NBPS Tech Solutions</h1>
+                    <p class="lead my-4 px-3 ">Let it happen... Through IT</p>
+                    <p class="lead fs-6 my-4 px-3 ">NBPS Tech Solutions serving PAN India more than a decade with out of
+                        the
+                        box support for his clients. Have the best output and expert team members, always prepared to
+                        take
+                        challenges for your Business / Organization.</p>
+                    <div class="px-3 mb-4">
+                        <a class="btn btn-outline-primary rounded-pill px-5 me-2 mb-3" href="#">Call now</a>
+                        <a class="btn btn-primary rounded-pill px-5 me-2 mb-3" href="#">eMail now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img src="res/analytics_team_Monochromatic.svg" class="img-fluid mx-auto d-block my-5" alt="">
                 </div>
             </div>
         </div>
     </header>
-    <section class="mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-4 px-3">About us</h2>
-                    <p class="lead px-3 fs-6">NBPS Tech Solutions is leading Software, Web Application Development,
-                        Business Software development Company in Kolkata. Web Application development with attractive
-                        static and dynamic website designs with various technologies.</p>
-                    <p class="lead px-3 fs-6">NBPS Tech Solutions is a well known software development and websit e
-                        development company. Best and experienced developers and designer is our asset. We provide any
-                        kind of website like MLM, NGO, E commerce, Online store, Organizational Profile, Matrimony and
-                        windows or desktop solution like ERP, Nursing Home, Accounting, Billing, Cheque Printing
-                        software, Database Handling, PHP, MySql, AJAX, JavaScript, VB.net, VB, flash, SQL Server,
-                        oracle. We also provide continuous and uninterrupted support and maintenance service to our
-                        client.
-                    </p>
-                    <p class="lead px-3 fs-6">We provide complete solutions to the satisfaction of our customers
-                        including installation, training, implementation, modification, up-gradation etc. Our software
-                        are tailor-made to suit exactly to the requirements of our valuable Customers.</p>
+    <section class="parallax">
+        <div style="background-color: #ffffffbb;">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="my-5 px-3">Our Personnel</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p class="text-center display-1 fw-bold">2</p>
+                        <p class="lead text-center fw-bold fs-6">Project Coordinator <br />General managers</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p class="text-center display-1 fw-bold">1</p>
+                        <p class="lead text-center fw-bold fs-6 py-2">Marketing Management</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p class="text-center display-1 fw-bold">1</p>
+                        <p class="lead text-center fw-bold fs-6 py-2">Project Management</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <p class="text-center display-1 fw-bold">3</p>
+                        <p class="lead text-center fw-bold fs-6">Senior developers <br />Architects</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-5 px-3">Our Personnel</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-12">
-                    <p class="text-center display-1 fw-bold">2</p>
-                    <p class="lead text-center fs-6">Project Coordinator <br />General managers</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <p class="text-center display-1 fw-bold">1</p>
-                    <p class="lead text-center fs-6 py-2">Marketing Management</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <p class="text-center display-1 fw-bold">1</p>
-                    <p class="lead text-center fs-6 py-2">Project Management</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <p class="text-center display-1 fw-bold">3</p>
-                    <p class="lead text-center fs-6">Senior developers <br />Architects</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
+    <section class="my-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -126,7 +138,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12"></div>
+                <div class="col-lg-4 col-12">
+                    <img src="res/information_carousel_monochromatic.svg" class="img-fluid mx-auto d-block" alt="">
+                </div>
                 <div class="col-lg-4 col-12">
                     <div class="card mb-4 border-0">
                         <div class="card-body">
@@ -143,17 +157,50 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="my-5" id="about-us">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="mb-4 px-3">Company Services</h2>
-                    <p class="lead mb-4 px-3 fs-6">We provide all the range of services required by a successful
-                        business
-                        software integration of a modern company. The environment we work</p>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <img src="res/team_work_monochromatic.svg" class="img-fluid mx-auto d-block my-5" alt="">
+                </div>
+                <div class="col-lg-8 col-md-6 col-12">
+                    <h2 class="mb-4 px-3">About us</h2>
+                    <p class="lead px-3 fs-6">NBPS Tech Solutions is leading Software, Web Application Development,
+                        Business Software development Company in Kolkata. Web Application development with attractive
+                        static and dynamic website designs with various technologies.</p>
+                    <p class="lead px-3 fs-6">NBPS Tech Solutions is a well known software development and websit e
+                        development company. Best and experienced developers and designer is our asset. We provide any
+                        kind of website like MLM, NGO, E commerce, Online store, Organizational Profile, Matrimony and
+                        windows or desktop solution like ERP, Nursing Home, Accounting, Billing, Cheque Printing
+                        software, Database Handling, PHP, MySql, AJAX, JavaScript, VB.net, VB, flash, SQL Server,
+                        oracle. We also provide continuous and uninterrupted support and maintenance service to our
+                        client.
+                    </p>
+                    <p class="lead px-3 fs-6">We provide complete solutions to the satisfaction of our customers
+                        including installation, training, implementation, modification, up-gradation etc. Our software
+                        are tailor-made to suit exactly to the requirements of our valuable Customers.</p>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="parallax" id="services">
+        <div style="background-color: #ffffffbb;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mt-5 px-3">Company Services</h2>
+                        <p class="lead mb-5 px-3 fs-6">We provide all the range of services required by a successful
+                            business software integration of a modern company. The environment we work</p>
+                        <div class="px-3 mb-4">
+                            <a class="btn btn-outline-primary rounded-pill px-5 me-2 mb-3" href="#home">Top</a>
+                            <a class="btn btn-primary rounded-pill px-5 me-2 mb-3" href="#contact-us">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12">
@@ -195,22 +242,119 @@
             </div>
         </div>
     </section>
+    <section class="parallax">
+        <div style="background-color: #ffffffdd;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="px-3 mt-5">On going client Projects</h2>
+                        <p class="lead fs-6 mb-5 px-3">Her're some of recent and on-going projects of NBPS Tech
+                            Solutions. </p>
+                        <div class="px-3 mb-4">
+                            <a class="btn btn-outline-primary rounded-pill px-5 me-2 mb-3" href="#about-us">About</a>
+                            <a class="btn btn-primary rounded-pill px-5 me-2 mb-3" href="#home">Top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 mb-4">
+                        <div class="card-body">
+                            <h3 class="lead fs-4">Marino Foods Products</h3>
+                            <p class="lead fs-6">Hyderabad (Sales Force Monitoring Web Solutions and Attendance
+                                Monitoring Android based System using Google Geo-mapping).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 mb-4">
+                        <div class="card-body">
+                            <h3 class="lead fs-4">Balananda Bramhachari</h3>
+                            <p class="lead fs-6">Hospital Management System (HMS) windows based desktop App for Behala
+                                Balananda Bramhachari Hospital And Research Centre, Kolkata</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 mb-4">
+                        <div class="card-body">
+                            <h3 class="lead fs-4">Kolkata Pay & Accounts</h3>
+                            <p class="lead fs-6">Kolkata Pay & Accounts Employees Cooperative Credit Society Ltd.
+                                Co-operative Management Software (CoMS) Full-stack development, upgradation for Web App.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 mb-4">
+                        <div class="card-body">
+                            <h3 class="lead fs-4">Team Waterhouse</h3>
+                            <p class="lead fs-6">Team Waterhouse, a Global Ozonizer production Company in Kolkata
+                                Product Sales and Survey Management Web Solutions (PSSM).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 mb-4">
+                        <div class="card-body">
+                            <h3 class="lead fs-4">Damodar Valley Corporation</h3>
+                            <p class="lead fs-6">Damodar Valley Corporation (DVC) Employee Management System(EMS), cloud
+                                based Web Application with Third Party application with external DB API.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 mb-4">
+                        <div class="card-body">
+                            <h3 class="lead fs-4">Want to know more</h3>
+                            <p class="lead fs-6">Please <a href="mailto:nbpstechsolutions@gmail.com">email us</a> or <a
+                                    href="tel:+917003690675">call us</a> to get back to you with our portfolio and
+                                curated quote for your upcoming projects.</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="parallax" id="contact-us">
+        <div style="background-color: #ffffffbb;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="px-3 mt-5">Contact us</h2>
+                        <p class="lead fs-6 mb-5 px-3">Please <a href="mailto:nbpstechsolutions@gmail.com">email us</a>
+                            or <a href="tel:+917003690675">call us</a> to get back to you with our portfolio and curated
+                            quote for your upcoming projects.</p>
+                        <div class="px-3 mb-4">
+                            <a class="btn btn-outline-primary rounded-pill px-5 me-2 mb-3" href="#about-us">About</a>
+                            <a class="btn btn-primary rounded-pill px-5 me-2 mb-3" href="#services">Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <ul class="nav justify-content-center my-3">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link active" href="#about-us">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Services</a>
+                            <a class="nav-link active" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contact</a>
+                            <a class="nav-link active" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -243,7 +387,8 @@
                         <p class="text-end lead fs-6 px-3 mb-1">GSTIN : 19AVTPD9191R1ZA</p>
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#">
+                                <a class="nav-link text-dark"
+                                    href="https://www.facebook.com/profile.php?id=100080296270093&paipv=0&eav=AfbKXKUHzu-vHBabij7g9dgL5YVQm0vjDswclAQlPyeedaym25oA_0mFC3ckqS-HOU0">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                         class="bi bi-facebook" viewBox="0 0 16 16">
                                         <path
@@ -277,7 +422,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center my-3 px-3">2023 © NBPS Tech</p>
+                    <p class="text-center my-3 px-3">2023 © NBPS Tech Solutions</p>
                 </div>
             </div>
         </div>
